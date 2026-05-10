@@ -31,7 +31,7 @@ print("3: Google Pay")
 
 #geting User's Payment App From User 
 
-Users_Payment_app = int(input("Enter Your Payment App Number : "))
+Users_Payment_app = int(input("Enter Your Payment App Option : "))
 
 if Users_Payment_app == 1:
     phonepe_qr_code.show()
